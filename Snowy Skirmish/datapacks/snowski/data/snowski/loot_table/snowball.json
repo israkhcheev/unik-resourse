@@ -1,0 +1,32 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 1,
+                "minecraft:custom_name": "[{\"text\":\"Snowball\",\"italic\":false,\"color\":\"dark_aqua\",\"underlined\":true}]",
+                "minecraft:can_break": {
+                    "predicates": [
+                        {
+                            "blocks": [
+                                "minecraft:clay"
+                            ]
+                        }
+                    ],
+                    "show_in_tooltip": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
